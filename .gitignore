@@ -1,2 +1,7 @@
 /data/excel
-/server/__pycache__
+.venv/
+server/__pycache__/
+__pycache__/
+*.pyc
+
+.codebuddy/
