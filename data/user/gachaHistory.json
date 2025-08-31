@@ -8,5 +8,487 @@
             "gachaTs": 1737788454,
             "pos": 0
         }
+    ],
+    "DOUBLE_64_0_4": [
+        {
+            "charId": "char_450_necras",
+            "charName": "死芒",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603333,
+            "pos": 9
+        },
+        {
+            "charId": "char_450_necras",
+            "charName": "死芒",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603333,
+            "pos": 8
+        },
+        {
+            "charId": "char_450_necras",
+            "charName": "死芒",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603333,
+            "pos": 7
+        },
+        {
+            "charId": "char_1033_swire2",
+            "charName": "琳琅诗怀雅",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603333,
+            "pos": 6
+        },
+        {
+            "charId": "char_1033_swire2",
+            "charName": "琳琅诗怀雅",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603333,
+            "pos": 5
+        },
+        {
+            "charId": "char_1033_swire2",
+            "charName": "琳琅诗怀雅",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603333,
+            "pos": 4
+        },
+        {
+            "charId": "char_1040_blaze2",
+            "charName": "烛煌",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603333,
+            "pos": 3
+        },
+        {
+            "charId": "char_4046_ebnhlz",
+            "charName": "黑键",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603333,
+            "pos": 2
+        },
+        {
+            "charId": "char_1020_reed2",
+            "charName": "焰影苇草",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603333,
+            "pos": 1
+        },
+        {
+            "charId": "char_450_necras",
+            "charName": "死芒",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603333,
+            "pos": 0
+        },
+        {
+            "charId": "char_1033_swire2",
+            "charName": "琳琅诗怀雅",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603322,
+            "pos": 9
+        },
+        {
+            "charId": "char_450_necras",
+            "charName": "死芒",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603322,
+            "pos": 8
+        },
+        {
+            "charId": "char_4117_ray",
+            "charName": "莱伊",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603322,
+            "pos": 7
+        },
+        {
+            "charId": "char_1033_swire2",
+            "charName": "琳琅诗怀雅",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603322,
+            "pos": 6
+        },
+        {
+            "charId": "char_1033_swire2",
+            "charName": "琳琅诗怀雅",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603322,
+            "pos": 5
+        },
+        {
+            "charId": "char_450_necras",
+            "charName": "死芒",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603322,
+            "pos": 4
+        },
+        {
+            "charId": "char_1033_swire2",
+            "charName": "琳琅诗怀雅",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603322,
+            "pos": 3
+        },
+        {
+            "charId": "char_1033_swire2",
+            "charName": "琳琅诗怀雅",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603322,
+            "pos": 2
+        },
+        {
+            "charId": "char_4065_judge",
+            "charName": "斥罪",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603322,
+            "pos": 1
+        },
+        {
+            "charId": "char_450_necras",
+            "charName": "死芒",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756603322,
+            "pos": 0
+        },
+        {
+            "charId": "char_328_cammou",
+            "charName": "卡达",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756603250,
+            "pos": 9
+        },
+        {
+            "charId": "char_464_cement",
+            "charName": "洋灰",
+            "rarity": 4,
+            "isNew": false,
+            "gachaTs": 1756603250,
+            "pos": 8
+        },
+        {
+            "charId": "char_491_humus",
+            "charName": "休谟斯",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756603250,
+            "pos": 7
+        },
+        {
+            "charId": "char_192_falco",
+            "charName": "翎羽",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756603250,
+            "pos": 6
+        },
+        {
+            "charId": "char_208_melan",
+            "charName": "玫兰莎",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756603250,
+            "pos": 5
+        },
+        {
+            "charId": "char_341_sntlla",
+            "charName": "寒檀",
+            "rarity": 4,
+            "isNew": false,
+            "gachaTs": 1756603250,
+            "pos": 4
+        },
+        {
+            "charId": "char_123_fang",
+            "charName": "芬",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756603250,
+            "pos": 3
+        },
+        {
+            "charId": "char_302_glaze",
+            "charName": "安比尔",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756603250,
+            "pos": 2
+        },
+        {
+            "charId": "char_181_flower",
+            "charName": "调香师",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756603250,
+            "pos": 1
+        },
+        {
+            "charId": "char_110_deepcl",
+            "charName": "深海色",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756603250,
+            "pos": 0
+        },
+        {
+            "charId": "char_209_ardign",
+            "charName": "卡缇",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756603241,
+            "pos": 9
+        },
+        {
+            "charId": "char_209_ardign",
+            "charName": "卡缇",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756603241,
+            "pos": 8
+        },
+        {
+            "charId": "char_137_brownb",
+            "charName": "猎蜂",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756603241,
+            "pos": 7
+        },
+        {
+            "charId": "char_137_brownb",
+            "charName": "猎蜂",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756603241,
+            "pos": 6
+        },
+        {
+            "charId": "char_137_brownb",
+            "charName": "猎蜂",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756603241,
+            "pos": 5
+        },
+        {
+            "charId": "char_190_clour",
+            "charName": "红云",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756603241,
+            "pos": 4
+        },
+        {
+            "charId": "char_253_greyy",
+            "charName": "格雷伊",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756603241,
+            "pos": 3
+        },
+        {
+            "charId": "char_185_frncat",
+            "charName": "慕斯",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756603241,
+            "pos": 2
+        },
+        {
+            "charId": "char_123_fang",
+            "charName": "芬",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756603241,
+            "pos": 1
+        },
+        {
+            "charId": "char_284_spot",
+            "charName": "斑点",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756603241,
+            "pos": 0
+        },
+        {
+            "charId": "char_117_myrrh",
+            "charName": "末药",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756602870,
+            "pos": 9
+        },
+        {
+            "charId": "char_497_ctable",
+            "charName": "晓歌",
+            "rarity": 4,
+            "isNew": false,
+            "gachaTs": 1756602870,
+            "pos": 8
+        },
+        {
+            "charId": "char_122_beagle",
+            "charName": "米格鲁",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756602870,
+            "pos": 7
+        },
+        {
+            "charId": "char_210_stward",
+            "charName": "史都华德",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756602870,
+            "pos": 6
+        },
+        {
+            "charId": "char_301_cutter",
+            "charName": "刻刀",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756602870,
+            "pos": 5
+        },
+        {
+            "charId": "char_328_cammou",
+            "charName": "卡达",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756602870,
+            "pos": 4
+        },
+        {
+            "charId": "char_120_hibisc",
+            "charName": "芙蓉",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756602870,
+            "pos": 3
+        },
+        {
+            "charId": "char_210_stward",
+            "charName": "史都华德",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756602870,
+            "pos": 2
+        },
+        {
+            "charId": "char_208_melan",
+            "charName": "玫兰莎",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756602870,
+            "pos": 1
+        },
+        {
+            "charId": "char_209_ardign",
+            "charName": "卡缇",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756602870,
+            "pos": 0
+        },
+        {
+            "charId": "char_133_mm",
+            "charName": "梅",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756602865,
+            "pos": 9
+        },
+        {
+            "charId": "char_281_popka",
+            "charName": "泡普卡",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756602865,
+            "pos": 8
+        },
+        {
+            "charId": "char_208_melan",
+            "charName": "玫兰莎",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756602865,
+            "pos": 7
+        },
+        {
+            "charId": "char_126_shotst",
+            "charName": "流星",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756602865,
+            "pos": 6
+        },
+        {
+            "charId": "char_120_hibisc",
+            "charName": "芙蓉",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756602865,
+            "pos": 5
+        },
+        {
+            "charId": "char_181_flower",
+            "charName": "调香师",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756602865,
+            "pos": 4
+        },
+        {
+            "charId": "char_141_nights",
+            "charName": "夜烟",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756602865,
+            "pos": 3
+        },
+        {
+            "charId": "char_328_cammou",
+            "charName": "卡达",
+            "rarity": 3,
+            "isNew": false,
+            "gachaTs": 1756602865,
+            "pos": 2
+        },
+        {
+            "charId": "char_281_popka",
+            "charName": "泡普卡",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756602865,
+            "pos": 1
+        },
+        {
+            "charId": "char_212_ansel",
+            "charName": "安赛尔",
+            "rarity": 2,
+            "isNew": false,
+            "gachaTs": 1756602865,
+            "pos": 0
+        }
     ]
 }
