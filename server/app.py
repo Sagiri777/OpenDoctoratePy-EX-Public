@@ -5,7 +5,7 @@ from datetime import datetime
 from flask import Flask
 
 from utils import read_json, preload_json_data, start_global_event_loop
-from constants import CONFIG_PATH, EX_CONFIG_PATH
+from constants import CONFIG_PATH
 
 import account, background, building, campaignV2, char, charBuild, charm, \
         crisis, deepsea, gacha, mail, online, tower, quest, pay, rlv2, shop, story, \
@@ -13,12 +13,11 @@ import account, background, building, campaignV2, char, charBuild, charm, \
         activity, vecbreak, mission
 
 server_config = read_json(CONFIG_PATH)
-ex_config = read_json(EX_CONFIG_PATH)
 
 app = Flask(__name__)
 host = server_config["server"]["host"]
 port = server_config["server"]["port"]
-useMemoryCache = ex_config["useMemoryCache"]
+useMemoryCache = server_config["server"]["useMemoryCache"]
 
 logger = logging.getLogger('werkzeug')
 logger.setLevel(logging.INFO)
@@ -174,6 +173,15 @@ app.add_url_rule("/activity/act24side/setTool", methods = ["POST"], view_func = 
 app.add_url_rule("/activity/bossRush/battleStart", methods = ["POST"], view_func = quest.questBattleStart)
 app.add_url_rule("/activity/bossRush/battleFinish", methods = ["POST"], view_func = quest.questBattleFinish)
 app.add_url_rule("/activity/bossRush/relicSelect", methods = ["POST"], view_func = quest.relicSelect)
+app.add_url_rule("/activity/act35side/create", methods = ["POST"], view_func = activity.act35side().act35sideCreate)
+app.add_url_rule("/activity/act35side/settle", methods = ["POST"], view_func = activity.act35side().act35sidesettle)
+app.add_url_rule("/activity/act35side/toBuy", methods = ["POST"], view_func = activity.act35side().act35sideToBuy)
+app.add_url_rule("/activity/act35side/refreshShop", methods = ["POST"], view_func = activity.act35side().act35siderefreshShop)
+app.add_url_rule("/activity/act35side/buySlot", methods = ["POST"], view_func = activity.act35side().act35sidebuySlot)
+app.add_url_rule("/activity/act35side/buyCard", methods = ["POST"], view_func = activity.act35side().act35sidebuyCard)
+app.add_url_rule("/activity/act35side/toProcess", methods = ["POST"], view_func = activity.act35side().act35sidetoProcess)
+app.add_url_rule("/activity/act35side/process", methods = ["POST"], view_func = activity.act35side().act35sideprocess)
+app.add_url_rule("/activity/act35side/nextRound", methods = ["POST"], view_func = activity.act35side().act35nextRound)
 
 app.add_url_rule("/aprilFool/act5fun/battleStart", methods = ["POST"], view_func = quest.questBattleStart)
 app.add_url_rule("/aprilFool/act5fun/battleFinish", methods = ["POST"], view_func = quest.act5fun_questBattleFinish)
@@ -302,10 +310,10 @@ def writeLog(data):
     print(f'[{datetime.now()}] {data}')
 
 if __name__ == "__main__":
+    start_global_event_loop()
     if useMemoryCache:
         writeLog('Loading all table data to memory')
         preload_json_data()
-        start_global_event_loop()
         writeLog('Sucessfully loaded all table data')
     writeLog('[SERVER] Server started at http://' + host + ":" + str(port))
     app.run(host=host, port=port, debug=True)

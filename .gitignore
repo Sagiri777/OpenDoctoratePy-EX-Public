@@ -1,8 +1,10 @@
-/data/excel
+*.pyc
+data/excel/*
 .venv/
 server/__pycache__/
 __pycache__/
-*.pyc
+
 
 .codebuddy/
 data/user/gachaHistory.json
+

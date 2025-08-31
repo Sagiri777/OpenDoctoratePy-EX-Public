@@ -17,31 +17,21 @@ from datetime import datetime, UTC
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
 
-from constants import USER_JSON_PATH, SERVER_DATA_PATH, SYNC_DATA_TEMPLATE_PATH
+from constants import USER_JSON_PATH, SERVER_DATA_PATH, SYNC_DATA_TEMPLATE_PATH, CONFIG_PATH
 
 json_encoder = Encoder()  # 移除 order="deterministic" 参数
 json_decoder = Decoder(strict=False)
 
-def read_json(path: str, **args) -> Dict[str, Any]:
-    if "b" not in args.get("mode", ""): 
-        args.setdefault("encoding", "utf-8")
-    try:
-        with open(path, "r", **args) as f:
-            content = f.read()
-            if not content:  # 如果文件为空
-                return {"user": {"pushFlags": {"status": 0}}}  # 返回默认结构
-            return json_decoder.decode(content)
-    except FileNotFoundError:
-        # 如果文件不存在，创建默认结构
-        default_data = {"user": {"pushFlags": {"status": 0}}}
-        write_json(default_data, path, **args)
-        return default_data
+def read_json(path: str) -> Dict[str, Any]:
+    with open(path, "rb") as f:
+        return json_decoder.decode(f.read())
 
-def write_json(data, path: str, **args): 
-    if "b" not in args.get("mode", ""): 
-        args.setdefault("encoding", "utf-8")
-    with open(path, "w", **args) as f: 
-        f.write(format(json_encoder.encode(data), indent=4).decode("utf-8"))
+def write_json(data: Any, path: str, indent: int = 4):
+    with open(path, "wb") as f:
+        if indent:
+            f.write(format(json_encoder.encode(data), indent=indent))
+        else:
+            f.write(json_encoder.encode(data))
 
 def decrypt_battle_data(data: str, login_time: int = read_json(USER_JSON_PATH)["user"]["pushFlags"]["status"]):
     
@@ -148,17 +138,28 @@ def get_memory(key: str) -> dict:
 
     :param key: 要获取的数据的名，如"activity_table"，返回"data/excel/activity_table.json"中的数据
     '''
-    # 从内存缓存中获取数据，如果不存在则尝试读取文件
-    try:
-        return memory_cache[key]
-    except KeyError:
-        print(f"警告: {key} 未在缓存中找到，正在尝试从文件中加载")
+    useMemoryCache = read_json(CONFIG_PATH)["server"]["useMemoryCache"]
+    if useMemoryCache:
+        # 从内存缓存中获取数据，如果不存在则尝试读取文件
+        try:
+            return memory_cache[key]
+        except KeyError:
+            print(f"警告: {key} 未在缓存中找到，正在尝试从文件中加载")
+            file_path = f"data/excel/{key}.json"
+            try:
+                # 将加载的数据存入缓存以备后续使用
+                data = read_json(file_path)
+                memory_cache[key] = data
+                return data
+            except FileNotFoundError:
+                raise KeyError(f"未找到文件: {file_path}")
+            except Exception as e:
+                raise ValueError(f"加载 {file_path} 时出错: {str(e)}")
+    # 如果不使用内存缓存，则直接从文件中读取数据
+    else:
         file_path = f"data/excel/{key}.json"
         try:
-            # 将加载的数据存入缓存以备后续使用
-            data = read_json(file_path)
-            memory_cache[key] = data
-            return data
+            return read_json(file_path)
         except FileNotFoundError:
             raise KeyError(f"未找到文件: {file_path}")
         except Exception as e:
