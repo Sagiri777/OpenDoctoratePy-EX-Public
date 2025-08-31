@@ -2,7 +2,7 @@ from virtualtime import time
 
 from flask import request
 
-from constants import BATTLE_REPLAY_JSON_PATH, USER_JSON_PATH, SYNC_DATA_TEMPLATE_PATH,ASSIST_PATH
+from constants import BATTLE_REPLAY_JSON_PATH, USER_JSON_PATH, SYNC_DATA_TEMPLATE_PATH,ASSIST_PATH,ACTIVITY_TABLE_PATH
 from utils import read_json, write_json, decrypt_battle_data, get_memory
 
 
@@ -418,6 +418,17 @@ def singleBattleFinish():
     json_body = request.get_json()
 
     rankList = json_body["settle"]["rankList"]
+    rank_lst = [
+        {"id": "1", "rank": 1, "score": 1919810, "isPlayer": 1},
+    ]
+    activity_table = read_json(ACTIVITY_TABLE_PATH)
+    activity_id = json_body["activityId"]
+    for npc_id in activity_table["activity"]["ENEMY_DUEL"][activity_id]["npcData"]:
+        if len(rank_lst) >= 8:
+            break
+        rank_lst.append(
+            {"id": npc_id, "rank": 2, "score": 114514, "isPlayer": 0},
+        )
 
     result = {
         "result": 0,
@@ -440,10 +451,10 @@ def singleBattleFinish():
         "choiceCnt": {
             "skip": 0,
             "normal": 5,
-            "allIn": 1
+            "allIn": 5
         },
-        "commentId": "Comment_Operation_7",
-        "isHighScore": False,
+        "commentId": "Comment_Operation_1",
+        "isHighScore": True,
         "rankList": rankList,
         "dailyMission": {
             "add": 0,

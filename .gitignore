@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 
 .codebuddy/
+data/user/gachaHistory.json
