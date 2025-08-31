@@ -19,7 +19,7 @@ from Crypto.Util.Padding import unpad
 
 from constants import USER_JSON_PATH, SERVER_DATA_PATH, SYNC_DATA_TEMPLATE_PATH, CONFIG_PATH
 
-json_encoder = Encoder(order="deterministic")
+json_encoder = Encoder()  # 移除 order="deterministic" 参数
 json_decoder = Decoder(strict=False)
 
 def read_json(path: str) -> Dict[str, Any]:
@@ -84,7 +84,10 @@ def run_after_response(func, *args, on_error=None):
                     print(f"[处理异常] {e}", file=sys.stderr)
                     print(tb_str, file=sys.stderr)
 
-        asyncio.run_coroutine_threadsafe(task(), global_loop)
+        if global_loop is None:
+            start_global_event_loop()
+        if global_loop is not None:  # 确保 global_loop 不为 None
+            asyncio.run_coroutine_threadsafe(task(), global_loop)
         return response
     
 #定义一个全局变量，用于存储从 JSON 文件中读取的数据

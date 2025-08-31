@@ -174,9 +174,13 @@ def accountSyncData():
             skin = temp_skin_table.get(char_id)
             if skin is None:
                 # 精二皮肤
-                if evolve_phase >= 2 and char_data["displayNumber"] is not None:
-                    skin = f"{char_id}#2"
-                else:
+                try:
+                    if evolve_phase >= 2 and char_data["displayNumber"] is not None:
+                        skin = f"{char_id}#2"
+                    else:
+                        skin = f"{char_id}#1"
+                except KeyError:
+                    print(f"Error: No displayNumber for {char_id}")
                     skin = f"{char_id}#1"
 
             # 基础角色结构
@@ -456,9 +460,12 @@ def accountSyncData():
 
     # ------------------------------ 
     # 更新charms
-    for charm in charm_table["charmList"]:
-        player_data["user"]["charm"]["charms"].update({charm["id"]: 1})
-
+    try:
+        for charm in charm_table["charmList"]:
+            player_data["user"]["charm"]["charms"].update({charm["id"]: 1})
+    except TypeError:
+        for charm in charm_table:
+            player_data["user"]["charm"]["charms"].update({charm["id"]: 1})
     # ------------------------------ 
     # 更新battle bus
     if "carData" in activity_table:

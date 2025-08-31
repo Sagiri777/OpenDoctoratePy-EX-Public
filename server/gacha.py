@@ -88,10 +88,18 @@ def finishNormalGacha():
     building_chars = user_data["user"]["building"]["chars"]  # 建筑角色数据
     avail_char_info = read_json(NORMALGACHA_PATH)["detailInfo"]["availCharInfo"]["perAvailList"]  # 可用角色信息
     random_rank_array = []  # 随机等级数组
+    
+    # 读取配置文件检查是否启用六星限制
+    config_data = read_json("config/config.json", encoding="utf-8")
+    six_star_only = config_data.get("gacha", {}).get("sixStarOnly", False)
 
     for i, char_info in enumerate(avail_char_info):
         total_percent = int(char_info["totalPercent"] * 100)  # 总百分比
         rarity_rank = char_info["rarityRank"]  # 稀有度等级
+        
+        # 如果启用了六星限制，只允许六星角色
+        if six_star_only and rarity_rank != 5:
+            continue
 
         random_rank_object = {"rarityRank": rarity_rank, "index": i}  # 随机等级对象
         random_rank_array.extend([random_rank_object] * total_percent)
@@ -461,12 +469,21 @@ def Gacha(ticket_type, use_diamond_shard, json_body):
         # 初始化随机权重数组
         random_rank_array = []
 
+        # 读取配置文件检查是否启用六星限制
+        config_data = read_json("config/config.json", encoding="utf-8")
+        six_star_only = config_data.get("gacha", {}).get("sixStarOnly", False)
+        
         # 遍历卡池角色信息
         for i, char_info in enumerate(avail_char_info):
             # 权重转换为整数
             total_percent = int(float(char_info['totalPercent']) * 200)
             # 获取稀有度等级
             rarity_rank = char_info['rarityRank']
+            
+            # 如果启用了六星限制，只允许六星角色
+            if six_star_only and rarity_rank != 5:
+                continue
+                
             # 如果稀有度等级为5，增加权重
             if rarity_rank == 5:
                 total_percent += (gacha_count + 50) // 50 * 2

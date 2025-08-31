@@ -608,7 +608,7 @@ def bindBirthday():
     user_data["user"]["status"]["birthday"]["month"] = int(json_body["month"])
     user_data["user"]["status"]["birthday"]["day"] = int(json_body["day"])
 
-    write_json(USER_JSON_PATH, user_data)
+    write_json(user_data, USER_JSON_PATH, encoding="utf-8")
 
     return {
         "playerDataDelta": {
