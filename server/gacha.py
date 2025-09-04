@@ -377,7 +377,7 @@ def Gacha(ticket_type, use_diamond_shard, json_body):
         }
 
     # 读取卡池数据
-    pool_json = read_json(pool_path, encoding='utf-8')
+    pool_json = read_json(pool_path)
 
     # 获取目标卡池的保底数，如果不存在则设置为 0
     gacha_count = ex_gacha_data.setdefault(gacha_type, 0)
@@ -470,7 +470,7 @@ def Gacha(ticket_type, use_diamond_shard, json_body):
         random_rank_array = []
 
         # 读取配置文件检查是否启用六星限制
-        config_data = read_json("config/config.json", encoding="utf-8")
+        config_data = read_json("config/config.json")
         six_star_only = config_data.get("gacha", {}).get("sixStarOnly", False)
         
         # 遍历卡池角色信息

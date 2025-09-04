@@ -14,7 +14,7 @@ os.chdir(SCRIPT_DIR)
 repositories = [
     ["https://github.com/Kengxxiao/ArknightsGameData.git", "zh_CN", str(SCRIPT_DIR / "data")],
     ["https://github.com/yuanyan3060/ArknightsGameResource.git", "", str(SCRIPT_DIR / "data")],
-    ["https://github.com/ArknightsAssets/ArknightsGamedata.git", "cn", str(SCRIPT_DIR / "data")],
+    #["https://github.com/ArknightsAssets/ArknightsGamedata.git", "cn", str(SCRIPT_DIR / "data")],
     ["https://github.com/FlandiaYingman/ArknightsGameDataComposite.git", "zh_CN", str(SCRIPT_DIR / "data")],
     ["https://github.com/fexli/ArknightsResource.git", "", str(SCRIPT_DIR / "data")],
 ]

@@ -8,3 +8,4 @@ __pycache__/
 .codebuddy/
 data/user/gachaHistory.json
 
+.DS_Store

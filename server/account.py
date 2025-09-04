@@ -562,7 +562,7 @@ def accountSyncData():
                 slot["charInstId"] = instId
                 if (
                         slot["currentEquip"]
-                        not in player_data["user"]["troop"]["chars"][instId]["equip"]
+                        not in player_data["user"]["troop"]["chars"][str(instId)]["equip"]
                 ):
                     slot["currentEquip"] = None
             else:

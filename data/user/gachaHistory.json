@@ -1130,5 +1130,87 @@
             "gachaTs": 1756602865,
             "pos": 0
         }
+    ],
+    "LINKAGE_65_0_1": [
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756993946,
+            "pos": 9
+        },
+        {
+            "charId": "char_4082_qiubai",
+            "charName": "仇白",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756993946,
+            "pos": 8
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756993946,
+            "pos": 7
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756993946,
+            "pos": 6
+        },
+        {
+            "charId": "char_4098_vvana",
+            "charName": "薇薇安娜",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756993946,
+            "pos": 5
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756993946,
+            "pos": 4
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756993946,
+            "pos": 3
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756993946,
+            "pos": 2
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756993946,
+            "pos": 1
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1756993946,
+            "pos": 0
+        }
     ]
 }

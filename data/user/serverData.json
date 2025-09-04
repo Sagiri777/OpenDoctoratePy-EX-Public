@@ -2,7 +2,7 @@
     "checkInData": {
         "canCheckIn": true,
         "lastCheckInTs": 0,
-        "lastResetDate": "2025-08-31"
+        "lastResetDate": "2025-09-04"
     },
     "checkInItems": {
         "act3signvs": [
@@ -318,7 +318,8 @@
             "DOUBLE_61_0_2": 4,
             "LIMITED_61_0_1": 10,
             "NORM": 0,
-            "DOUBLE_64_0_4": 0
+            "DOUBLE_64_0_4": 0,
+            "LINKAGE_65_0_1": 0
         }
     },
     "vecbreakV2": {
