@@ -1137,6 +1137,166 @@
             "charName": "丰川祥子",
             "rarity": 5,
             "isNew": false,
+            "gachaTs": 1757083056,
+            "pos": 9
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083056,
+            "pos": 8
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083056,
+            "pos": 7
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083056,
+            "pos": 6
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083056,
+            "pos": 5
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083056,
+            "pos": 4
+        },
+        {
+            "charId": "char_4055_bgsnow",
+            "charName": "鸿雪",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083056,
+            "pos": 3
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083056,
+            "pos": 2
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083056,
+            "pos": 1
+        },
+        {
+            "charId": "char_4048_doroth",
+            "charName": "多萝西",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083056,
+            "pos": 0
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083048,
+            "pos": 9
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083048,
+            "pos": 8
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083048,
+            "pos": 7
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083048,
+            "pos": 6
+        },
+        {
+            "charId": "char_1042_phatm2",
+            "charName": "酒神",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083048,
+            "pos": 5
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083048,
+            "pos": 4
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083048,
+            "pos": 3
+        },
+        {
+            "charId": "char_2012_typhon",
+            "charName": "提丰",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083048,
+            "pos": 2
+        },
+        {
+            "charId": "char_4121_zuole",
+            "charName": "左乐",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083048,
+            "pos": 1
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083048,
+            "pos": 0
+        },
+        {
+            "charId": "char_4182_oblvns",
+            "charName": "丰川祥子",
+            "rarity": 5,
+            "isNew": false,
             "gachaTs": 1756993946,
             "pos": 9
         },
@@ -1210,6 +1370,88 @@
             "rarity": 5,
             "isNew": false,
             "gachaTs": 1756993946,
+            "pos": 0
+        }
+    ],
+    "CLASSIC_DOUBLE_64_0_3": [
+        {
+            "charId": "char_293_thorns",
+            "charName": "棘刺",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083064,
+            "pos": 9
+        },
+        {
+            "charId": "char_430_fartth",
+            "charName": "远牙",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083064,
+            "pos": 8
+        },
+        {
+            "charId": "char_430_fartth",
+            "charName": "远牙",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083064,
+            "pos": 7
+        },
+        {
+            "charId": "char_358_lisa",
+            "charName": "铃兰",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083064,
+            "pos": 6
+        },
+        {
+            "charId": "char_358_lisa",
+            "charName": "铃兰",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083064,
+            "pos": 5
+        },
+        {
+            "charId": "char_430_fartth",
+            "charName": "远牙",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083064,
+            "pos": 4
+        },
+        {
+            "charId": "char_358_lisa",
+            "charName": "铃兰",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083064,
+            "pos": 3
+        },
+        {
+            "charId": "char_340_shwaz",
+            "charName": "黑",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083064,
+            "pos": 2
+        },
+        {
+            "charId": "char_112_siege",
+            "charName": "推进之王",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083064,
+            "pos": 1
+        },
+        {
+            "charId": "char_358_lisa",
+            "charName": "铃兰",
+            "rarity": 5,
+            "isNew": false,
+            "gachaTs": 1757083064,
             "pos": 0
         }
     ]

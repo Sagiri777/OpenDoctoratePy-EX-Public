@@ -1,0 +1,49 @@
+{
+    "seasonId": "recalRune_season_1",
+    "stageId": "level_recalrune_01-02",
+    "runes": [
+        "base",
+        "char_exclude_highland",
+        "char_exclude_vansni_2",
+        "enemy_replace_ghost_3",
+        "enemy_replace_yokai_3",
+        "enemy_replace_laxe_2",
+        "enemy_replace_litamr_2",
+        "enemy_movespeed_2",
+        "enemy_maxhp_3",
+        "enemy_slime_attr_3",
+        "hidden_def_2",
+        "enemy_bhrknf_3"
+    ],
+    "slots": [
+        {
+            "charInstId": 4182,
+            "skillIndex": 2,
+            "currentEquip": "uniequip_002_oblvns"
+        },
+        {
+            "charInstId": 4185,
+            "skillIndex": 1,
+            "currentEquip": "uniequip_002_amoris"
+        },
+        {
+            "charInstId": 4186,
+            "skillIndex": 1,
+            "currentEquip": "uniequip_002_tmoris"
+        },
+        {
+            "charInstId": 4183,
+            "skillIndex": 1,
+            "currentEquip": "uniequip_002_mortis"
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+    ],
+    "assistFriend": null
+}

@@ -106,18 +106,18 @@
         "season": "tower_season_5"
     },
     "userConfig": {
-        "activityMaxStartTs": 1715284799,
-        "activityMinStartTs": 1712203200,
-        "background": "bg_volcano_1",
+        "activityMaxStartTs": 1758139199,
+        "activityMinStartTs": 1756958400,
+        "background": "bg_avemujica_1",
         "fakeTime": -1,
         "restorePreviousStates": {
             "is2": false,
             "squadsAndFavs": false,
             "ui": false
         },
-        "secretary": "char_358_lisa",
-        "secretarySkinId": "char_358_lisa@lxh#1",
-        "theme": "tm_volcano_1"
+        "secretary": "char_4183_mortis",
+        "secretarySkinId": "char_4183_mortis#1",
+        "theme": "tm_avemujica_1"
     },
     "version": {
         "android": {

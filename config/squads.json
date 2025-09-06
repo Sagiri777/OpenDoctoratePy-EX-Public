@@ -1,7 +1,7 @@
 {
     "0": {
         "squadId": "0",
-        "name": "Stormblitz",
+        "name": "编队1",
         "slots": [
             {
                 "charId": "char_222_bpipe",
@@ -199,13 +199,9 @@
     },
     "3": {
         "squadId": "3",
-        "name": "Ashcone",
+        "name": "任意",
         "slots": [
-            {
-                "charId": "char_4132_ascln",
-                "skillIndex": 2,
-                "currentEquip": "uniequip_002_ascln"
-            }
+            
         ]
     }
 }

@@ -22,11 +22,11 @@ from constants import USER_JSON_PATH, SERVER_DATA_PATH, SYNC_DATA_TEMPLATE_PATH,
 json_encoder = Encoder()  # 移除 order="deterministic" 参数
 json_decoder = Decoder(strict=False)
 
-def read_json(path: str) -> Dict[str, Any]:
+def read_json(path: str, encoding: Optional[str] = None) -> Dict[str, Any]:
     with open(path, "rb") as f:
         return json_decoder.decode(f.read())
 
-def write_json(data: Any, path: str, indent: int = 4):
+def write_json(data: Any, path: str, indent: int = 4, encoding: Optional[str] = None):
     with open(path, "wb") as f:
         if indent:
             f.write(format(json_encoder.encode(data), indent=indent))
