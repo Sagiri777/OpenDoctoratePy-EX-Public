@@ -1,4 +1,5 @@
 *.pyc
+data/excel
 data/excel/*
 .venv/
 server/__pycache__/
