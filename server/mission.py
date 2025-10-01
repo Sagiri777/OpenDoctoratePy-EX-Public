@@ -98,7 +98,7 @@ class mission_manger:
                 mission_data_item["state"] = 3
                 mission_dict = self.mission_state_check(mission_type, mission_id, True)
 
-                if mission_dict is not None:
+                if isinstance(mission_dict, dict) and mission_dict:
                     for mission_id2, mission_data_item2 in mission_dict.items():
                         result["playerDataDelta"]["modified"]["mission"]["missions"][mission_type][mission_id2] = {}
                         result["playerDataDelta"]["modified"]["mission"]["missions"][mission_type][mission_id2] = mission_data_item2

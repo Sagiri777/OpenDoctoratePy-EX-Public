@@ -1,2 +1,12 @@
 *.pyc
 data/excel
+data/excel/*
+.venv/
+server/__pycache__/
+__pycache__/
+
+
+.codebuddy/
+data/user/gachaHistory.json
+
+.DS_Store

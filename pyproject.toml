@@ -1,4 +1,4 @@
-[project]
+[tool.poetry]
 name = "opendoctorate-ex-public"
 version = "2.6.21"
 description = ""
@@ -6,16 +6,18 @@ authors = [
     {name = "MVXTP",email = "61046104+jiellll1219@users.noreply.github.com"},
     {name = "Cryin",email = "1510935847@qq.com"},
     {name = "Autumn174",email = "3410952585@qq.com"}
+    "MVXTP <61046104+jiellll1219@users.noreply.github.com>",
+    "Cryin <1510935847@qq.com>"
 ]
-license = {text = "GPL-3.0"}
+license = "GPL-3.0"
 readme = "README.md"
-requires-python = ">=3.11"
-dependencies = [
-    "flask (>=3.1.2,<4.0.0)",
-    "requests (>=2.32.5,<3.0.0)",
-    "pycryptodome (>=3.23.0,<4.0.0)",
-    "msgspec (>=0.19.0,<0.20.0)"
-]
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+flask = ">=3.1.2,<4.0.0"
+requests = ">=2.32.5,<3.0.0"
+pycryptodome = ">=3.23.0,<4.0.0"
+msgspec = ">=0.19.0,<0.20.0"
 
 
 [build-system]

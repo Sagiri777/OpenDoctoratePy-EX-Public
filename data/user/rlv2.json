@@ -1,0 +1,3047 @@
+{
+    "player": {
+        "state": "PENDING",
+        "property": {
+            "exp": 0,
+            "level": 10,
+            "maxLevel": 10,
+            "hp": {
+                "current": 10000,
+                "max": 10000
+            },
+            "gold": 450,
+            "shield": 10000,
+            "capacity": 10000,
+            "population": {
+                "cost": 0,
+                "max": 6
+            },
+            "conPerfectBattle": 0
+        },
+        "cursor": {
+            "zone": 1,
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "trace": [
+            {
+                "zone": 1,
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        ],
+        "pending": [
+            {
+                "index": "e_0",
+                "type": "SHOP",
+                "content": {
+                    "shop": {
+                        "bank": {
+                            "open": false,
+                            "canPut": false,
+                            "canWithdraw": false,
+                            "withdraw": 0,
+                            "cost": 1
+                        },
+                        "id": "just_a_shop",
+                        "goods": [
+                            {
+                                "index": "0",
+                                "itemId": "rogue_5_recruit_ticket_all",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "1",
+                                "itemId": "rogue_5_relic_legacy_28",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "2",
+                                "itemId": "rogue_5_relic_legacy_32",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "3",
+                                "itemId": "rogue_5_relic_legacy_33",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "4",
+                                "itemId": "rogue_5_relic_legacy_34",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "5",
+                                "itemId": "rogue_5_relic_legacy_35",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "6",
+                                "itemId": "rogue_5_relic_legacy_36",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "7",
+                                "itemId": "rogue_5_relic_legacy_119",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "8",
+                                "itemId": "rogue_5_relic_legacy_121",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "9",
+                                "itemId": "rogue_5_relic_legacy_124",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "10",
+                                "itemId": "rogue_5_relic_legacy_130",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "11",
+                                "itemId": "rogue_5_relic_legacy_131",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "12",
+                                "itemId": "rogue_5_relic_legacy_132",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "13",
+                                "itemId": "rogue_5_relic_legacy_133",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "14",
+                                "itemId": "rogue_5_relic_legacy_134",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "15",
+                                "itemId": "rogue_5_relic_legacy_135",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "16",
+                                "itemId": "rogue_5_relic_legacy_1",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "17",
+                                "itemId": "rogue_5_relic_legacy_2",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "18",
+                                "itemId": "rogue_5_relic_legacy_3",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "19",
+                                "itemId": "rogue_5_relic_legacy_4",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "20",
+                                "itemId": "rogue_5_relic_legacy_5",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "21",
+                                "itemId": "rogue_5_relic_legacy_6",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "22",
+                                "itemId": "rogue_5_relic_legacy_7",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "23",
+                                "itemId": "rogue_5_relic_legacy_8",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "24",
+                                "itemId": "rogue_5_relic_legacy_9",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "25",
+                                "itemId": "rogue_5_relic_legacy_10",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "26",
+                                "itemId": "rogue_5_relic_legacy_12",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "27",
+                                "itemId": "rogue_5_relic_legacy_27",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "28",
+                                "itemId": "rogue_5_relic_legacy_29",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "29",
+                                "itemId": "rogue_5_relic_legacy_30",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "30",
+                                "itemId": "rogue_5_relic_legacy_40",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "31",
+                                "itemId": "rogue_5_relic_legacy_110",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "32",
+                                "itemId": "rogue_5_relic_legacy_111",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "33",
+                                "itemId": "rogue_5_relic_legacy_112",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "34",
+                                "itemId": "rogue_5_relic_legacy_113",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "35",
+                                "itemId": "rogue_5_relic_legacy_114",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "36",
+                                "itemId": "rogue_5_relic_legacy_115",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "37",
+                                "itemId": "rogue_5_relic_legacy_116",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "38",
+                                "itemId": "rogue_5_relic_legacy_117",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "39",
+                                "itemId": "rogue_5_relic_legacy_118",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "40",
+                                "itemId": "rogue_5_relic_legacy_120",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "41",
+                                "itemId": "rogue_5_relic_legacy_122",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "42",
+                                "itemId": "rogue_5_relic_legacy_123",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "43",
+                                "itemId": "rogue_5_relic_legacy_125",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "44",
+                                "itemId": "rogue_5_relic_legacy_126",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "45",
+                                "itemId": "rogue_5_relic_legacy_127",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "46",
+                                "itemId": "rogue_5_relic_legacy_128",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "47",
+                                "itemId": "rogue_5_relic_legacy_129",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "48",
+                                "itemId": "rogue_5_relic_legacy_13",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "49",
+                                "itemId": "rogue_5_relic_legacy_14",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "50",
+                                "itemId": "rogue_5_relic_legacy_15",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "51",
+                                "itemId": "rogue_5_relic_legacy_16",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "52",
+                                "itemId": "rogue_5_relic_legacy_17",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "53",
+                                "itemId": "rogue_5_relic_legacy_18",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "54",
+                                "itemId": "rogue_5_relic_legacy_20",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "55",
+                                "itemId": "rogue_5_relic_legacy_21",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "56",
+                                "itemId": "rogue_5_relic_legacy_22",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "57",
+                                "itemId": "rogue_5_relic_legacy_23",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "58",
+                                "itemId": "rogue_5_relic_legacy_24",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "59",
+                                "itemId": "rogue_5_relic_legacy_25",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "60",
+                                "itemId": "rogue_5_relic_legacy_37",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "61",
+                                "itemId": "rogue_5_relic_legacy_38",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "62",
+                                "itemId": "rogue_5_relic_legacy_42",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "63",
+                                "itemId": "rogue_5_relic_legacy_43",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "64",
+                                "itemId": "rogue_5_relic_legacy_44",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "65",
+                                "itemId": "rogue_5_relic_legacy_46",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "66",
+                                "itemId": "rogue_5_relic_legacy_71",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "67",
+                                "itemId": "rogue_5_relic_legacy_72",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "68",
+                                "itemId": "rogue_5_relic_legacy_73",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "69",
+                                "itemId": "rogue_5_relic_legacy_74",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "70",
+                                "itemId": "rogue_5_relic_legacy_76",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "71",
+                                "itemId": "rogue_5_relic_legacy_77",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "72",
+                                "itemId": "rogue_5_relic_legacy_79",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "73",
+                                "itemId": "rogue_5_relic_legacy_80",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "74",
+                                "itemId": "rogue_5_relic_legacy_81",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "75",
+                                "itemId": "rogue_5_relic_legacy_82",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "76",
+                                "itemId": "rogue_5_relic_legacy_83",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "77",
+                                "itemId": "rogue_5_relic_legacy_84",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "78",
+                                "itemId": "rogue_5_relic_legacy_88",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "79",
+                                "itemId": "rogue_5_relic_legacy_89",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "80",
+                                "itemId": "rogue_5_relic_legacy_90",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "81",
+                                "itemId": "rogue_5_relic_legacy_91",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "82",
+                                "itemId": "rogue_5_relic_legacy_92",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "83",
+                                "itemId": "rogue_5_relic_legacy_93",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "84",
+                                "itemId": "rogue_5_relic_legacy_94",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "85",
+                                "itemId": "rogue_5_relic_legacy_95",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "86",
+                                "itemId": "rogue_5_relic_legacy_136",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "87",
+                                "itemId": "rogue_5_relic_legacy_137",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "88",
+                                "itemId": "rogue_5_relic_legacy_138",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "89",
+                                "itemId": "rogue_5_relic_legacy_143",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "90",
+                                "itemId": "rogue_5_relic_legacy_144",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "91",
+                                "itemId": "rogue_5_relic_legacy_145",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "92",
+                                "itemId": "rogue_5_relic_legacy_146",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "93",
+                                "itemId": "rogue_5_relic_legacy_147",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "94",
+                                "itemId": "rogue_5_relic_legacy_148",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "95",
+                                "itemId": "rogue_5_relic_legacy_149",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "96",
+                                "itemId": "rogue_5_relic_fight_1",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "97",
+                                "itemId": "rogue_5_relic_fight_3",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "98",
+                                "itemId": "rogue_5_relic_fight_4",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "99",
+                                "itemId": "rogue_5_relic_fight_5",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "100",
+                                "itemId": "rogue_5_relic_fight_6",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "101",
+                                "itemId": "rogue_5_relic_fight_7",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "102",
+                                "itemId": "rogue_5_relic_fight_8",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "103",
+                                "itemId": "rogue_5_relic_fight_11",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "104",
+                                "itemId": "rogue_5_relic_fight_13",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "105",
+                                "itemId": "rogue_5_relic_fight_16",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "106",
+                                "itemId": "rogue_5_relic_fight_17",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "107",
+                                "itemId": "rogue_5_relic_bullet_1",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "108",
+                                "itemId": "rogue_5_relic_bullet_2",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "109",
+                                "itemId": "rogue_5_relic_bullet_3",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "110",
+                                "itemId": "rogue_5_relic_bullet_4",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "111",
+                                "itemId": "rogue_5_relic_legacy_140",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "112",
+                                "itemId": "rogue_5_relic_legacy_141",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "113",
+                                "itemId": "rogue_5_relic_legacy_142",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "114",
+                                "itemId": "rogue_5_relic_fight_12",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "115",
+                                "itemId": "rogue_5_relic_fight_14",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "116",
+                                "itemId": "rogue_5_relic_farmer_1",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "117",
+                                "itemId": "rogue_5_relic_farmer_2",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "118",
+                                "itemId": "rogue_5_relic_farmer_3",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "119",
+                                "itemId": "rogue_5_relic_farmer_4",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "120",
+                                "itemId": "rogue_5_relic_farmer_5",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "121",
+                                "itemId": "rogue_5_relic_farmer_6",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "122",
+                                "itemId": "rogue_5_relic_blockg_1",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "123",
+                                "itemId": "rogue_5_relic_blockg_2",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "124",
+                                "itemId": "rogue_5_relic_blockg_3",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "125",
+                                "itemId": "rogue_5_relic_blockg_4",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "126",
+                                "itemId": "rogue_5_relic_legacy_47",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "127",
+                                "itemId": "rogue_5_relic_legacy_48",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "128",
+                                "itemId": "rogue_5_relic_legacy_49",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "129",
+                                "itemId": "rogue_5_relic_legacy_50",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "130",
+                                "itemId": "rogue_5_relic_legacy_51",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "131",
+                                "itemId": "rogue_5_relic_legacy_52",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "132",
+                                "itemId": "rogue_5_relic_legacy_53",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "133",
+                                "itemId": "rogue_5_relic_legacy_54",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "134",
+                                "itemId": "rogue_5_relic_legacy_55",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "135",
+                                "itemId": "rogue_5_relic_legacy_56",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "136",
+                                "itemId": "rogue_5_relic_legacy_57",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "137",
+                                "itemId": "rogue_5_relic_legacy_58",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "138",
+                                "itemId": "rogue_5_relic_legacy_59",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "139",
+                                "itemId": "rogue_5_relic_legacy_60",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "140",
+                                "itemId": "rogue_5_relic_legacy_61",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "141",
+                                "itemId": "rogue_5_relic_legacy_62",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "142",
+                                "itemId": "rogue_5_relic_legacy_63",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "143",
+                                "itemId": "rogue_5_relic_legacy_64",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "144",
+                                "itemId": "rogue_5_relic_legacy_65",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "145",
+                                "itemId": "rogue_5_relic_legacy_66",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "146",
+                                "itemId": "rogue_5_relic_legacy_67",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "147",
+                                "itemId": "rogue_5_relic_legacy_68",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "148",
+                                "itemId": "rogue_5_relic_legacy_69",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "149",
+                                "itemId": "rogue_5_relic_legacy_70",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "150",
+                                "itemId": "rogue_5_relic_legacy_78",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "151",
+                                "itemId": "rogue_5_relic_legacy_85",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "152",
+                                "itemId": "rogue_5_relic_legacy_96",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "153",
+                                "itemId": "rogue_5_relic_legacy_97",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "154",
+                                "itemId": "rogue_5_relic_legacy_98",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "155",
+                                "itemId": "rogue_5_relic_legacy_99",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "156",
+                                "itemId": "rogue_5_relic_legacy_100",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "157",
+                                "itemId": "rogue_5_relic_legacy_101",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "158",
+                                "itemId": "rogue_5_relic_legacy_102",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "159",
+                                "itemId": "rogue_5_relic_legacy_103",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "160",
+                                "itemId": "rogue_5_relic_legacy_104",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "161",
+                                "itemId": "rogue_5_relic_legacy_105",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "162",
+                                "itemId": "rogue_5_relic_legacy_106",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "163",
+                                "itemId": "rogue_5_relic_legacy_107",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "164",
+                                "itemId": "rogue_5_relic_legacy_108",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "165",
+                                "itemId": "rogue_5_relic_legacy_109",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "166",
+                                "itemId": "rogue_5_relic_legacy_11",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "167",
+                                "itemId": "rogue_5_relic_legacy_26",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "168",
+                                "itemId": "rogue_5_relic_legacy_31",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "169",
+                                "itemId": "rogue_5_relic_legacy_39",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "170",
+                                "itemId": "rogue_5_relic_legacy_41",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "171",
+                                "itemId": "rogue_5_relic_legacy_45",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "172",
+                                "itemId": "rogue_5_relic_legacy_75",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "173",
+                                "itemId": "rogue_5_relic_legacy_139",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "174",
+                                "itemId": "rogue_5_relic_legacy_150",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "175",
+                                "itemId": "rogue_5_relic_fight_2",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "176",
+                                "itemId": "rogue_5_relic_fight_9",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "177",
+                                "itemId": "rogue_5_relic_fight_10",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "178",
+                                "itemId": "rogue_5_relic_fight_15",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "179",
+                                "itemId": "rogue_5_relic_fight_18",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "180",
+                                "itemId": "rogue_5_relic_explore_1",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "181",
+                                "itemId": "rogue_5_relic_explore_2",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "182",
+                                "itemId": "rogue_5_relic_explore_3",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "183",
+                                "itemId": "rogue_5_relic_explore_4",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "184",
+                                "itemId": "rogue_5_relic_explore_5",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "185",
+                                "itemId": "rogue_5_relic_explore_6",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "186",
+                                "itemId": "rogue_5_relic_richg_1",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "187",
+                                "itemId": "rogue_5_relic_richg_2",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "188",
+                                "itemId": "rogue_5_relic_richg_3",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "189",
+                                "itemId": "rogue_5_relic_blockg_5",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "190",
+                                "itemId": "rogue_5_relic_speg_2",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "191",
+                                "itemId": "rogue_5_relic_speg_3",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "192",
+                                "itemId": "rogue_5_relic_speg_4",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "193",
+                                "itemId": "rogue_5_relic_speg_5",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "194",
+                                "itemId": "rogue_5_relic_speg_6",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "195",
+                                "itemId": "rogue_5_relic_custog_1",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "196",
+                                "itemId": "rogue_5_relic_custog_2",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "197",
+                                "itemId": "rogue_5_relic_custog_3",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "198",
+                                "itemId": "rogue_5_relic_custog_4",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "199",
+                                "itemId": "rogue_5_relic_custog_5",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "200",
+                                "itemId": "rogue_5_relic_custog_6",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "201",
+                                "itemId": "rogue_5_relic_custog_7",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "202",
+                                "itemId": "rogue_5_relic_custog_8",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "203",
+                                "itemId": "rogue_5_relic_custog_9",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "204",
+                                "itemId": "rogue_5_relic_custog_10",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "205",
+                                "itemId": "rogue_5_relic_custog_11",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "206",
+                                "itemId": "rogue_5_relic_custog_12",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "207",
+                                "itemId": "rogue_5_active_tool_1",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "208",
+                                "itemId": "rogue_5_active_tool_2",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "209",
+                                "itemId": "rogue_5_active_tool_3",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "210",
+                                "itemId": "rogue_5_active_tool_4",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "211",
+                                "itemId": "rogue_5_active_tool_5",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "212",
+                                "itemId": "rogue_5_active_tool_6",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "213",
+                                "itemId": "rogue_5_relic_final_3",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "214",
+                                "itemId": "rogue_5_relic_final_4",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "215",
+                                "itemId": "rogue_5_relic_final_1",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "216",
+                                "itemId": "rogue_5_relic_final_2",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "217",
+                                "itemId": "rogue_5_relic_legacy_19",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "218",
+                                "itemId": "rogue_5_relic_richg_4",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "219",
+                                "itemId": "rogue_5_relic_richg_5",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "220",
+                                "itemId": "rogue_5_relic_richg_6",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "221",
+                                "itemId": "rogue_5_relic_richg_7",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "222",
+                                "itemId": "rogue_5_relic_legacy_86",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "223",
+                                "itemId": "rogue_5_relic_legacy_87",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "224",
+                                "itemId": "rogue_5_relic_cardg_1",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "225",
+                                "itemId": "rogue_5_relic_cardg_2",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "226",
+                                "itemId": "rogue_5_relic_cardg_3",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "227",
+                                "itemId": "rogue_5_relic_cardg_4",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "228",
+                                "itemId": "rogue_5_relic_cardg_5",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "229",
+                                "itemId": "rogue_5_relic_cardg_6",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "230",
+                                "itemId": "rogue_5_relic_res_1",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "231",
+                                "itemId": "rogue_5_relic_res_2",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "232",
+                                "itemId": "rogue_5_relic_raidian_1",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "233",
+                                "itemId": "rogue_5_relic_speg_1",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "234",
+                                "itemId": "rogue_5_relic_legacy_28",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "235",
+                                "itemId": "rogue_5_relic_legacy_28_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "236",
+                                "itemId": "rogue_5_relic_legacy_28_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "237",
+                                "itemId": "rogue_5_relic_legacy_28_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "238",
+                                "itemId": "rogue_5_relic_legacy_32",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "239",
+                                "itemId": "rogue_5_relic_legacy_32_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "240",
+                                "itemId": "rogue_5_relic_legacy_32_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "241",
+                                "itemId": "rogue_5_relic_legacy_32_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "242",
+                                "itemId": "rogue_5_relic_legacy_33",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "243",
+                                "itemId": "rogue_5_relic_legacy_33_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "244",
+                                "itemId": "rogue_5_relic_legacy_33_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "245",
+                                "itemId": "rogue_5_relic_legacy_33_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "246",
+                                "itemId": "rogue_5_relic_legacy_34",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "247",
+                                "itemId": "rogue_5_relic_legacy_34_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "248",
+                                "itemId": "rogue_5_relic_legacy_34_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "249",
+                                "itemId": "rogue_5_relic_legacy_34_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "250",
+                                "itemId": "rogue_5_relic_legacy_35",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "251",
+                                "itemId": "rogue_5_relic_legacy_35_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "252",
+                                "itemId": "rogue_5_relic_legacy_35_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "253",
+                                "itemId": "rogue_5_relic_legacy_35_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "254",
+                                "itemId": "rogue_5_relic_legacy_36",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "255",
+                                "itemId": "rogue_5_relic_legacy_36_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "256",
+                                "itemId": "rogue_5_relic_legacy_36_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "257",
+                                "itemId": "rogue_5_relic_legacy_36_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "258",
+                                "itemId": "rogue_5_relic_legacy_119",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "259",
+                                "itemId": "rogue_5_relic_legacy_119_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "260",
+                                "itemId": "rogue_5_relic_legacy_119_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "261",
+                                "itemId": "rogue_5_relic_legacy_119_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "262",
+                                "itemId": "rogue_5_relic_legacy_121",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "263",
+                                "itemId": "rogue_5_relic_legacy_121_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "264",
+                                "itemId": "rogue_5_relic_legacy_121_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "265",
+                                "itemId": "rogue_5_relic_legacy_121_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "266",
+                                "itemId": "rogue_5_relic_legacy_124",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "267",
+                                "itemId": "rogue_5_relic_legacy_124_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "268",
+                                "itemId": "rogue_5_relic_legacy_124_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "269",
+                                "itemId": "rogue_5_relic_legacy_124_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "270",
+                                "itemId": "rogue_5_relic_legacy_130",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "271",
+                                "itemId": "rogue_5_relic_legacy_130_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "272",
+                                "itemId": "rogue_5_relic_legacy_130_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "273",
+                                "itemId": "rogue_5_relic_legacy_130_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "274",
+                                "itemId": "rogue_5_relic_legacy_131",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "275",
+                                "itemId": "rogue_5_relic_legacy_131_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "276",
+                                "itemId": "rogue_5_relic_legacy_131_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "277",
+                                "itemId": "rogue_5_relic_legacy_131_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "278",
+                                "itemId": "rogue_5_relic_legacy_132",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "279",
+                                "itemId": "rogue_5_relic_legacy_132_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "280",
+                                "itemId": "rogue_5_relic_legacy_132_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "281",
+                                "itemId": "rogue_5_relic_legacy_132_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "282",
+                                "itemId": "rogue_5_relic_legacy_133",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "283",
+                                "itemId": "rogue_5_relic_legacy_133_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "284",
+                                "itemId": "rogue_5_relic_legacy_133_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "285",
+                                "itemId": "rogue_5_relic_legacy_133_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "286",
+                                "itemId": "rogue_5_relic_legacy_134",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "287",
+                                "itemId": "rogue_5_relic_legacy_134_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "288",
+                                "itemId": "rogue_5_relic_legacy_134_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "289",
+                                "itemId": "rogue_5_relic_legacy_134_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "290",
+                                "itemId": "rogue_5_relic_legacy_135",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "291",
+                                "itemId": "rogue_5_relic_legacy_135_a",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "292",
+                                "itemId": "rogue_5_relic_legacy_135_b",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            },
+                            {
+                                "index": "293",
+                                "itemId": "rogue_5_relic_legacy_135_c",
+                                "count": 1,
+                                "priceId": "rogue_5_gold",
+                                "priceCount": 0,
+                                "origCost": 0,
+                                "displayPriceChg": false,
+                                "_retainDiscount": 1
+                            }
+                        ],
+                        "_done": false
+                    }
+                }
+            }
+        ],
+        "status": {
+            "bankPut": 0
+        },
+        "toEnding": "ro5_ending_1",
+        "chgEnding": false
+    },
+    "record": {
+        "brief": null
+    },
+    "map": {
+        "zones": {}
+    },
+    "troop": {
+        "chars": {},
+        "expedition": [],
+        "expeditionReturn": null,
+        "hasExpeditionReturn": false
+    },
+    "inventory": {
+        "relic": {
+            "r_0": {
+                "index": "r_0",
+                "id": "rogue_5_band_2",
+                "count": 1,
+                "ts": 1757127046
+            }
+        },
+        "recruit": {},
+        "trap": null,
+        "consumable": {},
+        "exploreTool": {}
+    },
+    "game": {
+        "mode": "NORMAL",
+        "predefined": null,
+        "theme": "rogue_5",
+        "outer": {
+            "support": false
+        },
+        "start": 1757127043,
+        "eGrade": 0,
+        "equivalentGrade": 0
+    },
+    "buff": {
+        "tmpHP": 0,
+        "capsule": null,
+        "squadBuff": []
+    },
+    "module": {}
+}

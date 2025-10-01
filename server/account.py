@@ -167,7 +167,6 @@ def accountSyncData():
         char_id = inst_to_char[inst]
         char_data = character_table[char_id]
         inst_id = int(char_id.split("_")[1])
-
         # 新建干员
         voice_lan = charword_table["charDefaultTypeDict"].get(char_id, "JP")
         evolve_phase = edit_json["evolvePhase"]
@@ -437,9 +436,12 @@ def accountSyncData():
 
     # ------------------------------ 
     # 更新charms
-    for charm in charm_table["charmList"]:
-        player_data["user"]["charm"]["charms"].update({charm["id"]: 1})
-
+    try:
+        for charm in charm_table["charmList"]:
+            player_data["user"]["charm"]["charms"].update({charm["id"]: 1})
+    except TypeError:
+        for charm in charm_table:
+            player_data["user"]["charm"]["charms"].update({charm["id"]: 1})
     # ------------------------------ 
     # 更新battle bus
     if "carData" in activity_table:
@@ -536,7 +538,7 @@ def accountSyncData():
                 slot["charInstId"] = instId
                 if (
                         slot["currentEquip"]
-                        not in player_data["user"]["troop"]["chars"][instId]["equip"]
+                        not in player_data["user"]["troop"]["chars"][str(instId)]["equip"]
                 ):
                     slot["currentEquip"] = None
             else:
