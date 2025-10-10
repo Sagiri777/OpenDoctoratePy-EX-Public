@@ -1,8 +1,9 @@
 import re
 import logging
+import json
 from datetime import datetime
 
-from flask import Flask
+from flask import Flask, request, jsonify
 
 from utils import read_json, preload_json_data, start_global_event_loop
 from constants import CONFIG_PATH
@@ -305,6 +306,77 @@ app.add_url_rule("/activity/vecBreakV2/battleFinish", methods = ["POST"], view_f
 app.add_url_rule('/recalRune/battleStart', methods=['POST'], view_func=crisis.recalRune_battleStart)
 app.add_url_rule('/recalRune/battleFinish', methods=['POST'], view_func=crisis.recalRune_battleFinish)
 
+# 屏蔽的路径列表
+BLOCKED_PATHS = [
+    '/pb/sync'
+]
+# 屏蔽的关键词列表
+BLOCKED_KEYWORDS = [
+    'iedsafe',
+    'batch_event'
+]
+
+# 全路由，捕获所有未匹配的路径请求
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>', methods=['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'HEAD', 'OPTIONS'])
+def catch_all(path):
+    # 检查是否需要屏蔽该请求
+    request_path = request.path
+    
+    # 检查路径是否在屏蔽列表中
+    if request_path in BLOCKED_PATHS:
+        writeLog(f"屏蔽的路径请求: {request_path}")
+        return jsonify({})
+    
+    # 检查路径或payload是否包含屏蔽关键词
+    blocked = False
+    for keyword in BLOCKED_KEYWORDS:
+        if keyword in request_path or keyword in request.get_data(as_text=True):
+            blocked = True
+            break
+    
+    if blocked:
+        #writeLog(f"屏蔽的关键词请求: {request_path}")
+        return jsonify({})
+    
+    # 记录请求信息
+    request_info = {
+        'timestamp': datetime.now().isoformat(),
+        'path': request_path,
+        'method': request.method,
+        'headers': dict(request.headers),
+        'payload': request.get_data(as_text=True)
+    }
+    
+    # 打印日志
+    writeLog(f"未匹配的请求: {request_path}")
+    
+    # 保存到文件
+    try:
+        import os
+        # 创建文件夹（如果不存在）
+        if not os.path.exists('missingRoutes'):
+            os.makedirs('missingRoutes')
+        
+        # 生成文件名（替换路径中的特殊字符）
+        safe_path = path.replace('/', '_').replace('?', '').replace('&', '')
+        if not safe_path:
+            safe_path = 'root'
+        
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        filename = f"{safe_path}_{timestamp}.json"
+        filepath = os.path.join('missingRoutes', filename)
+        
+        # 写入文件
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(request_info, f, ensure_ascii=False, indent=2)
+            
+        writeLog(f"已保存未匹配请求到: {filepath}")
+    except Exception as e:
+        writeLog(f"保存未匹配请求时出错: {str(e)}")
+    
+    # 返回200空JSON
+    return jsonify({})
 
 def writeLog(data):
     print(f'[{datetime.now()}] {data}')

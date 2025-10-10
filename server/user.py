@@ -1,9 +1,10 @@
 import json
-import datetime
+from datetime import datetime
 
 import requests
 from flask import request
-from random import random
+#from random import random
+import random
 
 from constants import USER_JSON_PATH, SYNC_DATA_TEMPLATE_PATH, SERVER_DATA_PATH
 from utils import read_json, write_json, run_after_response
@@ -310,7 +311,7 @@ def Agreement():
     data = request.data
     data = {
         "data": [
-            "¯\_(ツ)_/¯"
+            "(*^▽^*)"
         ],
         "version": "4.0.0"
     }
@@ -359,7 +360,8 @@ def oauth2_v2_grant():
         "data": {
             "code": "JieG",
             "uid": "10000023"
-        }
+        },
+        "type": "A"
     }
 
 
@@ -587,11 +589,17 @@ def getOtherPlayerNameCard():
 
     user_data = read_json(USER_JSON_PATH)
 
-    assist_list = [user_data["troop"]["chars"].keys()]
-    assist_char_id = assist_list[random.randint(0, len(assist_list) - 1)]
-    assist_char_num_id = int(assist_char_id.split("_")[1])
+    # 获取角色ID列表并确保它们是字符串
+    assist_char_ids = list(user_data['user']["troop"]["chars"].keys())
+    assist_char_id = assist_char_ids[random.randint(0, len(assist_char_ids) - 1)]
 
-    assist_char_obj = user_data["troop"]["chars"][str(assist_char_num_id)].copy()
+    # 兼容新旧格式：如果ID已经是数字格式（旧格式），直接使用；如果是"char_xxx"格式（新格式），则提取数字部分
+    if isinstance(assist_char_id, str) and assist_char_id.startswith("char_"):
+        assist_char_num_id = int(assist_char_id.split("_")[1])
+    else:
+        assist_char_num_id = int(assist_char_id)
+
+    assist_char_obj = user_data['user']["troop"]["chars"][str(assist_char_num_id)].copy()
     nickNumber = int(random.randint(1, 9999))
 
     result = {
