@@ -1,5 +1,6 @@
 *.pyc
 data/excel
+
 data/excel/*
 .venv/
 server/__pycache__/
@@ -10,3 +11,5 @@ __pycache__/
 data/user/gachaHistory.json
 
 .DS_Store
+
+.idea
